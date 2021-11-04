@@ -70,7 +70,7 @@ if __name__ == "__main__":
     params = {
         "dataset_params": {
             "datasets": {
-                dataset_name: "../../../Datasets/formatted/{}_lines".format(dataset_name),
+                dataset_name: "./Datasets/formatted/{}_lines".format(dataset_name),#../../../Datasets/formatted/{}_lines".format(dataset_name),
             },
             "train": {
                 "name": "{}-train".format(dataset_name),
