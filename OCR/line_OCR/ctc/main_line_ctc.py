@@ -160,7 +160,7 @@ if __name__ == "__main__":
 
         "training_params": {
             "output_folder": "Pool-Line-R_iam",  # folder names for logs and weigths
-            "max_nb_epochs": 5000,  # max number of epochs for the training
+            "max_nb_epochs": 5,  # max number of epochs for the training
             "max_training_time":  3600*48,  # max training time limit (in seconds)
             "load_epoch": "last",  # ["best", "last"], to load weights from best epoch or last trained epoch
             "interval_save_weights": None,  # None: keep best and last only
